@@ -2,9 +2,7 @@
 
 
 
-This is a repository for Build an LMS Platform: Next.js 13,  React, Stripe, Mux, Prisma, Tailwind, MySQL | Full Course 2023
-
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=Big_aFLmekI)
+This is a repository for Build an LMS Platform: Next.js 13,  React, Stripe, Mux, Prisma, Tailwind, MySQL
 
 Key Features:
 
@@ -32,13 +30,16 @@ Key Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-lms-platform.git
+git clone https://github.com/Ajay01103/Next13-LMS
 ```
 
 ### Install packages
 
 ```shell
 npm i
+bun install
+pnpm install
+yarn install
 ```
 
 ### Setup .env file
@@ -81,6 +82,9 @@ npx prisma db push
 
 ```shell
 npm run dev
+bun dev
+pnpm dev
+yarn dev
 ```
 
 ## Available commands
